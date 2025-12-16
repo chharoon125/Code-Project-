@@ -1,83 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Tic-Toc-Toe</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 <body>
+   <div class="Msg-Container hide">
+  <p id="msg">Winner</p>
+  <button id="New-btn">New Game</button>
+</div>
 
+<div class="DrawGame hide">
 
-  <header>
+    <p id="msg2">Game is Draw</p>
+</div>
 
-    <h2 class="Logo">Logo</h2>
+    <h1>Tic Toc Toe</h1>
+    <div class="container">
+    <div class="Game">
 
-    <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-
-        <button class="btnlogin-popup">Login
-        </button>
-    
-    </nav>
-  </header>
-
-  <div class="wrapper">
-
-<span class="iconclose"><ion-icon name="close"></ion-icon></span>
-
-    <div class="form-box">
-      <form>
-        <h2>Login</h2>
-        <div class="input-box">
-          <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="Email">
-          <label>Email</label>
-          </div>
-
-
-
-
-          <div class="input-box">
-          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-          <input type="password">
-          <label>password</label>
-
-        </div>
-
-
-
-        <div class="remember-forget">
-          <input type="checkbox">
-          <label>Remember me</label>
-         
-          <a href="#">ForgetPassword</a>
-        </div>
-
-        <button class="btn">Login</button>
-        <div class="Registerlink">
-          <p>Don't have an account ? 
-          <a href="#"> Register</a>
-        </p>
-        </div>
-
-
-
-      </form>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
     </div>
-  </div>
-
-
-  
-
-      
-
-    
+    </div>
+    <button id="resetBtn">Reset Game</button>
+    <script src="app.js"></script>
 </body>
 </html>
