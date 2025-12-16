@@ -3,81 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 <body>
-
-
-  <header>
-
-    <h2 class="Logo">Logo</h2>
-
-    <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-
-        <button class="btnlogin-popup">Login
-        </button>
     
-    </nav>
-  </header>
+    <h1>Rock Paper Scissors </h1>
 
-  <div class="wrapper">
-
-<span class="iconclose"><ion-icon name="close"></ion-icon></span>
-
-    <div class="form-box">
-      <form>
-        <h2>Login</h2>
-        <div class="input-box">
-          <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="Email">
-          <label>Email</label>
-          </div>
-
-
-
-
-          <div class="input-box">
-          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-          <input type="password">
-          <label>password</label>
-
+    <div class="Choices" >
+        <div class="choice " id="rock">
+            <img src="image/rock.jpeg">
         </div>
 
-
-
-        <div class="remember-forget">
-          <input type="checkbox">
-          <label>Remember me</label>
-         
-          <a href="#">ForgetPassword</a>
+        <div class="choice" id="paper">
+            <img src="image/paper.jpeg">     
         </div>
 
-        <button class="btn">Login</button>
-        <div class="Registerlink">
-          <p>Don't have an account ? 
-          <a href="#"> Register</a>
-        </p>
+        <div class="choice" id="scissor">
+            <img src="image/scissor.jpeg">     
         </div>
 
-
-
-      </form>
     </div>
-  </div>
 
 
-  
 
-      
+    <div class="Scoreboard">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your Move</p>
+    </div>
+    
+       
+        
+    
+    
 
     
+    <script src="rock.js"></script>
 </body>
 </html>
