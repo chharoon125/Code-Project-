@@ -1,40 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Toc-Toe</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="Msg-Container hide">
-  <p id="msg">Winner</p>
-  <button id="New-btn">New Game</button>
-</div>
+  <div class="container">
+    <h1>Profile</h1>
+    <p class="subtitle">I'm a creative webdeveloper</p>
 
-<div class="DrawGame hide">
+    <div class="content">
+      <!-- Left Column -->
+      <div class="details">
+        <h2>Details</h2>
+        <p><strong>Name:</strong> Ch Haroon</p>
+        <p><strong>Age:</strong> 24 years</p>
+        <p><strong>Location:</strong> Rawalpindi,Pakistan</p>
 
-    <p id="msg2">Game is Draw</p>
-</div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
 
-    <h1>Tic Toc Toe</h1>
-    <div class="container">
-    <div class="Game">
+      <!-- Middle Column -->
+      <div class="about">
+        <h2>About me</h2>
+        <p>
+          I am an allround web designer. Duis aute irure dolor in reprehenderit 
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+          deserunt mollit anim id est laborum.
+        </p>
+       
+        <button class="btn">Contact Me</button>
+      </div>
 
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
+      <!-- Right Column -->
+      <div class="profile-card">
+        <img src="https://i.pravatar.cc/200" alt="Profile Picture">
+        <h3>HELLO, I'M<br>Haroon</h3>
+        <p>
+          I am a versatile graphic designer who can approach marketing projects 
+          from concept to implementation.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
     </div>
-    </div>
-    <button id="resetBtn">Reset Game</button>
-    <script src="app.js"></script>
+  </div>
 </body>
 </html>
